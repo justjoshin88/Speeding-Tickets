@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>speeding tickets</title>
+<html><head><title>Speeding Tickets</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -45,7 +45,7 @@
               </tr>
          </table>
   
-</div>   <!-- end ticketsApp -->
+</div>   <!-- end ticketApp -->
 </div>   <!-- end class= 'container' -->
 
 <script>
@@ -62,7 +62,7 @@
                 async getData() {
                     const response = await fetch('tickets1.json')
                     this.tickets = await response.json()
-                    //tickets = data.filter( (item) => item.25over == 25overSelect );     
+                    //tickets = data.filter( (item) => item.major == majSelect );     
                 },
             }
           })
